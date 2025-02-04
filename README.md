@@ -1,18 +1,56 @@
-# mvapp
+# MVAPP
 
-A new Flutter project.
+Este projeto marca o **meu primeiro aplicativo Flutter**. Ele apresenta uma tela de **login** básica, com campos para e-mail e senha, além de um botão para efetuar o login.
 
-## Getting Started
+## Recursos Principais
 
-This project is a starting point for a Flutter application.
+- **Tela de Login**: 
+  - Campo de e-mail
+  - Campo de senha (com segurança de ocultar caracteres)
+  - Botão para realizar login
+- **Validações Simples**: mensagens de alerta se algum campo estiver vazio ou se a autenticação falhar
+- **Interface Limpa**: design simples, com possibilidade de personalização de cores e logo
 
-A few resources to get you started if this is your first Flutter project:
+## Tecnologias
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter (Dart)**: framework principal para a criação de aplicativos multiplataforma
+- **Editor**: pode ser desenvolvido no Android Studio, VSCode ou qualquer IDE compatível com Flutter
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# PrimeiroApp
-# PrimeiroApp
+## Como Executar
+
+1. **Clone** este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/mvapp.git
+Entre na pasta do projeto:
+bash
+Copy
+Edit
+cd mvapp
+Instale as dependências:
+bash
+Copy
+Edit
+flutter pub get
+Execute o app em um dispositivo ou emulador:
+bash
+Copy
+Edit
+flutter run
+Estrutura Simplificada
+css
+Copy
+Edit
+mvapp/
+ ├─ android/
+ ├─ ios/
+ ├─ lib/
+ │   └─ main.dart
+ ├─ assets/
+ │   └─ images/
+ │       ├─ logo.png
+ │       └─ background.png
+ ├─ pubspec.yaml
+ └─ README.md
+Observações
+Este repositório foi criado apenas para fins de aprendizagem.
+Fique à vontade para customizar o design, mensagens e fluxo de login conforme desejar.
